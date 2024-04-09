@@ -13,12 +13,19 @@ body{
     padding: 30px 0;
 }
 .wrapper #mainContent{
-    width:calc(100% -400px);
-    margin-left: 100px;
+    width: calc(100% - 700px);
+    float: left;
+    padding-top: 5px;
+    padding: 30px;
     background: lightblue;
 }
+#textArea{
+    
+    height:100vh;
+}
 .wrapper #additionalContent{
-    width: 200px;
+    width: 500px;
+    float: left;
     height:100vh;
     background:gray;
 }
