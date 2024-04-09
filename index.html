@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags for character set and viewport -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Phase 1 Project</title>
+        <!-- Link to external stylesheet -->
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+         <!--search Area-->
+        <section id="searchArea">
+            <h2>Find The Country Of Your Choice!! </h2>
+            <div id="searchBox">
+            <form action="search-form" method="get" id="search-form">
+                <!-- Input field for country name -->
+                <input type="text" id="Country-Name" name="Country-Name" placeholder="e.g Kenya"/>
+                <div id="buttonArea">
+                <!-- Search button -->
+                <button id="SearchButton" type="button" form="search-form">
+                search
+                </button>
+                <!-- Button for random nation -->
+                <button id="randomNation" type="button" form="search-form">
+                    Surprise Nation!
+                    </button>
+                </div>
+            </form>
+            </div>
+        </section>
+         <!--main content -->
+        <section id="mainContent">
+        <header id="header">
+            <h1>Discover The World</h1>
+            <h2>discover <span id="HeaderCountry" class="currentCountry"><strong>Country-Name</strong></span></h2>
+        </header>
+         <div id="intro" class="bodyContent">
+            <h3>Introduction</h3>
+            <p>welcome and we hope you learn more about<span id="IntroCountry" class="currentCountry">Country-Name</span></p>
+            <div id="overview">
+                <h4>overview</h4>
+               <p id="overviewInfo">welcome! we the creators of this webpage are thrlled to expand your world by informing you on the marvelous nations of the world.
+                    This web Application is meant to help you discover the nations of the world we live in.
+                    By typing in the name of the nation you seek in the search Box
+                    you get relevant information on the country you seek.
+                    If you dont know many places,Dont worry we've got you click on the button bellow the search box for a random nation to be displayed
+                    currently we are showing you <span class="currentCountry">Country-Name</span>
+               </p> 
+            </div>
+         </div>
+         <div id="contentArea" class="bodyContent">
+            <h3 id="countryContent"><span class="currentCountry"></span></h3>
+            <div id="information"></div>
+            <div id="mapLocation"></div>
+         </div>
+         <div id="wishList" class="bodyContent">
+         <h4 id="wishListTitle">Add country to wishList</h4><button id="addButton" type="button">ADD</button>
+         </div>
+         <table id="toVisitCountries">
+             <thead>
+                <tr>
+                    <!-- Table headers -->
+                    <th scope="col">place</th>
+                    <th scope="col">name</th>
+                    <th scope="col">date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- Table row -->
+                    <th scope="row" class="currentCountry"></th>
+                    <td id="Applicant"></td>
+                    <td id="date"></td>
+                </tr>
+            </tbody>
+            <caption><i>Places to Visit </i></caption>
+         </table>
+        </section> 
+        <section id="additionalContent">
+            <h3>ForIntensive Knowledge</h3>
+        </section>  
+        </div>
+        
+    </div>
+    </body>
+    <!-- Script file for JavaScript functionality -->
+    <script src="./index.js"></script>
+</html>

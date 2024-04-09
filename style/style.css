@@ -1,0 +1,49 @@
+body{
+    background:white;
+}
+.wrapper { 
+    display:flex;
+    position: relative;
+}
+.wrapper #searchArea{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background:rgb(34, 146, 34);
+    padding: 30px 0;
+}
+.wrapper #mainContent{
+    width:calc(100% -400px);
+    margin-left: 100px;
+    background: lightblue;
+}
+.wrapper #additionalContent{
+    width: 200px;
+    height:100vh;
+    background:gray;
+}
+.wrapper #searchArea h2{
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper #searchArea #buttonArea{
+    padding: 15px;
+    border-top: 2px solid rgba(51, 50, 50, 0.05);
+    border-bottom: 3px solid rgba(225,225,225,0.05)
+}
+.wrapper #mainContent{
+    width: 100%;
+    margin-left: 200px;
+}
+div#wishList{
+    display: flex;
+}
+div#wishList #addButton{
+    margin-left: 5px;
+}
+#addButton{
+    height: 50%;
+    margin-top: 20px;
+}
