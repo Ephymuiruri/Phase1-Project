@@ -1,0 +1,147 @@
+@font-face {
+    font-family: pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: baskerItalic;
+    src: url(../fonts/Baskervville-Italic.ttf);
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background:#f5f5f5;
+    font-family: 'baskerItalic',sans-serif;
+}
+
+.first-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    text-align: center;
+    background-image: url(phase1\ project.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.first-page button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color:rgba(126, 94, 66,0.9);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-page button:hover {
+    background-color: #0056b3;
+}
+.wrapper { 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: none;
+    position: relative;
+}
+.wrapper #searchArea{
+    font-family:'pacifico','sans-serif';
+    padding: 20px;
+    background-color:#1c888800;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+h1, h2, h3, h4 {
+    margin-top: 0;
+}
+#buttonArea {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper #mainContent{
+    width:100%;
+    padding: 20px;
+    border-radius: 5px;
+    background: #badae9;
+   
+}
+#intro, #contentArea, #wishList {
+    margin-bottom: 20px;
+}
+#userName, #Country-Name {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#SearchButton, #randomNation, #addButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+#SearchButton:hover, #randomNation:hover, #addButton:hover {
+    background-color: #0056b3;
+}
+
+#countryFlag{
+    width: 550px;
+    height: 300px;
+}
+
+div#wishList{
+    display: flex;
+}
+div#wishList #addButton{
+    margin-left: 5px;
+}
+#addButton{
+    height: 50%;
+    margin-top: 20px;
+}
+#toVisitCountries {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #4a9df5fa;
+    color: #fff;
+}
+
+tr {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+th,
+td {
+
+    padding: 10px; /* Adjust padding as needed */
+    border-bottom: 1px solid #ccc;
+}
+
+#tablehead {
+    font-weight: bold;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #1a16e6; /* Lighten the background color on hover */
+    transform: scale(1.05);
+    box-shadow: 2px 2px 12px rgba(240, 4, 4, 0.7), -1px -1px -8px rgba(245, 222, 222, 0.651);
+}
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+    color: #494848; /* Choose a color that complements your design */
+}

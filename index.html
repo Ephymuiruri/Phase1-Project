@@ -6,13 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Phase 1 Project</title>
         <!-- Link to external stylesheet -->
-        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/images/style.css">
     </head>
     <body>
+    <!-- First Page -->
+    <section class="first-page">
+        <button id="startButton" type="button">Start Exploring</button>
+         </section>
+
         <div class="wrapper">
          <!--search Area-->
         <section id="searchArea">
+            <h3>please help us Know you</h3>
+            <div id="extradata">
+                <input type="text" id="userName" name="name" placeholder="e.g Lucy"/>
+            </div>
             <h2>Find The Country Of Your Choice!! </h2>
+           
             <div id="searchBox">
             <form action="search-form" method="get" id="search-form">
                 <!-- Input field for country name -->
@@ -31,28 +41,29 @@
             </div>
         </section>
          <!--main content -->
+
         <section id="mainContent">
-            <div id="textArea">
-        <header id="header">
+        <div id="textArea">
+         <header id="header">
             <h1>Discover The World</h1>
-            <h2>discover <span id="HeaderCountry" class="currentCountry"><strong>Country-Name</strong></span></h2>
-        </header>
+            <h2>Discover <span id="HeaderCountry" class="currentCountry"><strong></strong></span></h2>
+         </header>
          <div id="intro" class="bodyContent">
             <h3>Introduction</h3>
-            <p>welcome and we hope you learn more about<span id="IntroCountry" class="currentCountry">Country-Name</span></p>
+            <p>welcome and we hope you learn more about <span id="IntroCountry" class="currentCountry"></span></p>
             <div id="overview">
-                <h4>overview</h4>
-               <p id="overviewInfo">welcome! we the creators of this webpage are thrlled to expand your world by informing you on the marvelous nations of the world.
+                <h2>overview</h2>
+               <p id="overviewInfo">welcome! we the creators of this webpage are thrilled to expand your world by informing you on the marvelous nations of the world.
                     This web Application is meant to help you discover the nations of the world we live in.
                     By typing in the name of the nation you seek in the search Box
                     you get relevant information on the country you seek.
                     If you dont know many places,Dont worry we've got you click on the button bellow the search box for a random nation to be displayed
-                    currently we are showing you <span class="currentCountry">Country-Name</span>
+                    currently we are showing you <span class="currentCountry"></span>
                </p> 
             </div>
          </div>
          <div id="contentArea" class="bodyContent">
-            <h3 id="countryContent"><span class="currentCountry"></span></h3>
+            <h1 id="countryContent"><span class="currentCountry"></span></h1>
             <div id="information"></div>
             <div id="mapLocation"></div>
          </div>
@@ -60,29 +71,21 @@
          <h4 id="wishListTitle">Add country to wishList</h4><button id="addButton" type="button">ADD</button>
          </div>
          <table id="toVisitCountries">
-             <thead>
-                <tr>
+                <tr id="tablehead">
                     <!-- Table headers -->
                     <th scope="col">place</th>
                     <th scope="col">name</th>
                     <th scope="col">date</th>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <!-- Table row -->
-                    <th scope="row" class="currentCountry"></th>
-                    <td id="Applicant"></td>
-                    <td id="date"></td>
-                </tr>
-            </tbody>
+                
+            
             <caption><i>Places to Visit </i></caption>
          </table>
         </div>
-        </section> 
-        <section id="additionalContent">
+         </section>
+      <!--  <section id="additionalContent">
             <h3>ForIntensive Knowledge</h3>
-        </section>  
+        </section>  -->
         </div>
         
     </div>

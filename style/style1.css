@@ -1,0 +1,104 @@
+@font-face {
+    font-family: pacifico;
+    src: url(./fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: baskerItalic;
+    src: url(./fonts/Baskervville-Italic.ttf);
+}
+body{
+    background:rgb(253, 253, 253);
+    font-family: 'baskerItalic',sans-serif;
+}
+#homePage{
+    height: auto;
+    width: auto;
+    background-image: url(./images/phase1\ project\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wrapper { 
+    display:flex;
+    position: relative;
+}
+.wrapper #searchArea{
+    font-family:'sans-serif';
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background:#1c888800;
+    padding: 30px 0;
+}
+.wrapper #mainContent{
+    width:100%;
+    margin-left:200px;
+    padding-top: 5px;
+    padding: 30px;
+    background: #badae9;
+   
+}
+.wrapper #searchArea h2{
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper #searchArea #buttonArea{
+    padding: 10px 0;
+    border-top: 2px solid rgb(228, 226, 226);
+    border-bottom: 1px solid rgb(228, 226, 226)
+}
+#countryFlag{
+    width: 550px;
+    height: 300px;
+}
+
+div#wishList{
+    display: flex;
+}
+div#wishList #addButton{
+    margin-left: 5px;
+}
+#addButton{
+    height: 50%;
+    margin-top: 20px;
+}
+#toVisitCountries {
+    border-collapse: collapse;
+    width: 100px;
+    height:auto;
+    border: 2px solid #8d7de9;
+    box-shadow: 2px 2px 12px rgba(207, 8, 8, 0.2), -1px -1px -8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+th,
+td {
+    height: 10px;
+    width: 20px;
+    padding: 10px; /* Adjust padding as needed */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#tablehead {
+    background-color: #16a085;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f0f0f0; /* Lighten the background color on hover */
+    transform: scale(1.05);
+    box-shadow: 2px 2px 12px rgba(240, 4, 4, 0.2), -1px -1px -8px rgba(245, 222, 222, 0.651);
+}
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+    color: #333; /* Choose a color that complements your design */
+}
