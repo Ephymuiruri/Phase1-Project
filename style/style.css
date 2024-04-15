@@ -36,7 +36,7 @@ body,html{
     padding: 10px 20px;
     font-size: 1.2em;
     background-color:rgba(126, 94, 66,0.9);
-    color: #fff;
+    color: #f7ecec;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -45,6 +45,7 @@ body,html{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: 'DancingScript',sans-serif;
 }
 
 .first-page button:hover {
