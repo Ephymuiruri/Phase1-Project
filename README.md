@@ -1,5 +1,6 @@
-# Phase1-Project 
-
+# Phase1-Project: Discover The world.
+Date 2024/04/15
+### overview
 This project is a web application that allows users to explore and discover information about countries around the world.
 
 ## Table of Contents
@@ -19,7 +20,7 @@ The web application consists of HTML, CSS, and JavaScript files. It provides use
 - Ability to add countries to a wish list
 - Table displaying places to visit with details such as place name and date
 
-## Getting Started
+## Getting Started-setup Instructions
 
 To run the web application locally, follow these steps:
 1. Clone this repository to your local machine.
@@ -35,7 +36,12 @@ To run the web application locally, follow these steps:
 - Explore the introduction and overview sections to learn more about the web application.
 - Add countries to your wish list using the "Add" button.
 - View the table displaying places to visit and their details.
-
+## Technologies used
+Html
+JavaScript
+CSS
 ## Credits
-
 This project was created by Ephy Wachira and as part of Phase 1 project at Moringa School.
+### license
+The content of this site is licensed under the MIT license
+Copyright (c) 2018.
