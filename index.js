@@ -85,7 +85,23 @@ document.addEventListener('DOMContentLoaded', () => {
    
       <h3>Symbol of Unity: The Flag of ${searchedCountry["name"]["common"]} ${searchedCountry.flag}</h3>
       <p>${searchedCountry["flags"]["alt"]}</p>
-      <img alt="the flag" src="${searchedCountry.flags.png}" id="countryFlag"/>
+      <img alt="the flag" src="${searchedCountry.flags.png}" id="countryFlag" 
+      <style>
+      img {
+          max-width: 100%;
+          height: auto;
+      }
+      @media only screen and (max-width: 600px) {
+          img {
+              max-width: 100%; /* You can adjust this as needed */
+          }
+      }
+      @media only screen and (max-width: 900px) {
+          img {
+              max-width: 80%; /* You can adjust this as needed */
+          }
+      }
+  </style>/>
       
    
       <h3>Vast Territory: Exploring the Land</h3>
