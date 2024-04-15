@@ -28,10 +28,11 @@ body,html{
     text-align: center;
     background-image: url(./images/phase1\ project.png);
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    font-family: 'DancingScript',sans-serif;
+    font-family: 'DancingScript', sans-serif;
 }
+
 .first-page button {
     padding: 10px 20px;
     font-size: 1.2em;
@@ -150,4 +151,19 @@ caption {
     font-style: italic;
     font-weight: bold;
     color: #494848; /* Choose a color that complements your design */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    img {
+        max-width: 80%;
+    }
 }

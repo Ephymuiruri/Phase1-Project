@@ -18,7 +18,7 @@
         <section id="searchArea">
             <h2><strong>help us Know you</strong></h2>
             <div id="extradata">
-                <input type="text" id="userName" name="name" placeholder="e.g Lucy"/>
+                <input type="text" id="userName" name="name" placeholder="e.g Lucy" required/>
             </div>
             <h2>Find The Country Of Your Choice!! </h2>
            
@@ -69,8 +69,10 @@
             <div id="mapLocation"></div>
          </div>
          <div id="wishList" class="bodyContent">
-         <h4 id="wishListTitle">Add country to wishList</h4><button id="addButton" type="button">ADD</button>
-         </div>
+            <h4 id="wishListTitle">Add country to wishList</h4>
+            <form id="addForm"> <!-- Use a form element to handle submission -->                <button id="addButton" type="submit">ADD</button>
+            </form>
+        </div>
          <table id="toVisitCountries">
             <tr id="tablehead">
                 <!-- Table headers -->
