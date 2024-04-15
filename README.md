@@ -1,7 +1,7 @@
 # Phase1-Project: Discover The world.
 Date 2024/04/15
 ### overview
-This project is a web application that allows users to explore and discover information about countries around the world.
+This project is a web application that allows users to explore and discover information about countries around the world.Hence allowing them to choose where they would want to visit.
 
 ## Table of Contents
 
@@ -30,18 +30,18 @@ To run the web application locally, follow these steps:
 
 - Click on the "Start Exploring" button to begin your journey.
 - Enter your name in the input field under "please help us Know you".
-- Use the search box to find information about a specific country by typing its name.
+- Use the search box to find information about a specific country by typing its name or most common letters
 - Click the "Search" button to perform the search.
 - Click the "Surprise Nation!" button to get information about a random country.
 - Explore the introduction and overview sections to learn more about the web application.
 - Add countries to your wish list using the "Add" button.
 - View the table displaying places to visit and their details.
 ## Technologies used
-Html
-JavaScript
-CSS
+1. Html
+2. JavaScript
+3. CSS
 ## live link
-[Git](https://github.com/Ephymuiruri/Phase1-Project)
+[My Git](https://github.com/Ephymuiruri/Phase1-Project)
 ## Credits
 This project was created by Ephy Wachira and as part of Phase 1 project at Moringa School.
 ### license
