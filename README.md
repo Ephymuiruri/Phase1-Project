@@ -1,4 +1,4 @@
-# Phase1-Project
+# Phase1-Project 
 
 This project is a web application that allows users to explore and discover information about countries around the world.
 
@@ -38,4 +38,4 @@ To run the web application locally, follow these steps:
 
 ## Credits
 
-This project was created by [Your Name] and [Contributor Name] as part of [Project Name or Course Name].
+This project was created by Ephy Wachira and as part of Phase 1 project at Moringa School.
