@@ -41,7 +41,7 @@ Html
 JavaScript
 CSS
 ## live link
-[Git]()
+[Git](https://github.com/Ephymuiruri/Phase1-Project)
 ## Credits
 This project was created by Ephy Wachira and as part of Phase 1 project at Moringa School.
 ### license
